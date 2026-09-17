@@ -2,9 +2,9 @@
 
 [English](README.md)
 
-插件对外的形状写在这里：WIT、JSON Schema、`host.read` / `host.apply` / Play 扩展槽说明。本仓没有 wasm，不能当插件安装。写插件请单独克隆 TypeScript 或 Rust 模板；那些仓已经钉了一份本合同，打包不依赖本仓。
+这里是 WIT、JSON Schema，以及 `host.read` / `host.apply` / Play 扩展槽的说明。没有 wasm，不能当插件装。写插件请用 TypeScript 或 Rust 模板。
 
-语言模板维护者从这里拷 `plugin.wit` 和 `schema/`。
+改语言模板时，从这里拷 `plugin.wit` 和 `schema/`。
 
 一个插件就是三个文件一起工作：
 

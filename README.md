@@ -2,9 +2,9 @@
 
 [中文](README.zh.md)
 
-This is the shape of a plugin: WIT, JSON Schema, and the `host.read` / `host.apply` / Play extension notes. There is no wasm here, so this repo is not an installable plugin. To write a plugin, clone the TypeScript or Rust template; those repos vendor this contract and pack without this repo.
+WIT, JSON Schema, and notes for `host.read`, `host.apply`, and Play extension nodes. No wasm, so this is not an installable plugin. Write a plugin from the TypeScript or Rust template.
 
-Language-template maintainers copy `plugin.wit` and `schema/` from here.
+When you update a language template, copy `plugin.wit` and `schema/` from here.
 
 A plugin is three files:
 
